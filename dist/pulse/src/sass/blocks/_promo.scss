@@ -1,0 +1,79 @@
+.promo {
+  min-height: 650px;
+  padding: 21px 0 93px 0;
+  @include media('<=phone'){
+    min-height: 450px;
+  }
+  background: url(../img/bg.png) center (center/cover) no-repeat;
+  &__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 90px;
+    @include media('<=tablet'){
+      align-items: center;
+    }
+  }
+  &__header{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 42px;
+    color: $sub-color;
+    margin: 0 0 0 0;
+    @include media('<=phone'){
+      text-align: center;
+      font-size: 30px;
+    }
+  }
+
+  &__subheader{
+    font-family: 'MuseoModerno';
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: $sub-color;
+    margin-top: 17px;
+    @include media('<=phone'){
+      text-align: center;
+      font-size: 15px;
+    }
+  }
+  &__icons{
+    margin-top: 60px;
+    width: 425px;
+    display: flex;
+    justify-content: space-between;
+    @include media('<=phone'){
+      margin-top: 25px;
+      justify-content: space-around;
+      max-width: 350px;
+    }
+
+  }
+  &__icon{
+    width: 109px;
+    text-align: center;
+    img{
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+    font-family: 'MuseoModerno';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+    color: $sub-color;
+  }
+  &__link{
+    margin-top: 18px;
+    color: $sub-color;
+  }
+  a{
+    color: $sub-color;
+    text-transform: uppercase;
+  }
+}
+

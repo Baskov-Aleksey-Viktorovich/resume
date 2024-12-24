@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <meta name="title" content="My portfolio">
+    <meta name="description" content="Here you can see my work and learn more about me"><!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="My portfolio">
+    <meta property="og:description" content="Here you can see my work and learn more about me">
+    <meta property="og:image"
+        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="My portfolio">
+    <meta property="twitter:description" content="Here you can see my work and learn more about me">
+    <meta property="twitter:image"
+        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <!-- Favicon  -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/src/icons/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/src/icons/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/src/icons/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/src/icons/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/src/icons/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/src/icons/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/src/icons/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/src/icons/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/src/icons/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/src/icons/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/src/icons/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/src/icons/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/src/icons/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/src/icons/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/src/icons/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <aside class="sidepanel"><a href="https://github.com/Baskov-Aleksey-Viktorovich" class="sidepanel__link"
+            target="_blank"><img src="icons/social/github.svg" alt="github image icon"></a><a
+            href="https://t.me/baskovAleksey" class="sidepanel__link" target="_blank"><img
+                src="icons/social/telegram.svg" alt="telegram image icon"></a><a
+            href="https://www.linkedin.com/in/aleksey-baskov-5a62601bb/" class="sidepanel__link" target="_blank"><img
+                src="icons/social/linkedin.svg" alt="linkedin image icon"></a>
+        <div class="sidepanel__divider"></div>
+        <div class="sidepanel__text"><span>Social media</span></div>
+    </aside>
+    <div class="menu">
+        <div class="menu__block">
+            <div class="menu__close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48px"
+                    height="48px">
+                    <path d="M11 0.7H13V23.3H11z" transform="rotate(-45.001 12 12)" />
+                    <path d="M0.7 11H23.3V13H0.7z" transform="rotate(-45.001 12 12)" />
+                </svg></div>
+            <nav class="menu__items">
+                <ul class="menu__list">
+                    <li class="menu__link"><a href="#about">About Me</a></li>
+                    <li class="menu__link"><a href="#resume">My Experience</a></li>
+                    <li class="menu__link"><a href="#technologies">My skills</a></li>
+                    <li class="menu__link"><a href="#portfolio">My Work</a></li>
+                    <li class="menu__link"><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="menu__social"><a href="https://github.com/Baskov-Aleksey-Viktorovich" class="menu__soc"
+                    target="_blank"><img src="icons/social/github.svg" alt="github image icon"></a><a
+                    href="https://t.me/baskovAleksey" class="menu__soc" target="_blank"><img
+                        src="icons/social/telegram.svg" alt="telegram image icon"></a><a
+                    href="https://www.linkedin.com/in/aleksey-baskov-5a62601bb/" class="menu__soc" target="_blank"><img
+                        src="icons/social/linkedin.svg" alt="linkedin image icon"></a></div>
+        </div>
+        <div class="menu__overlay"></div>
+    </div>
+    <section class="promo">
+        <div class="hamburger"><span></span> <span class="long"></span> <span></span></div>
+        <div class="container">
+            <div class="title title__fz16 promo__subtitle">My name is Oleksii Baskov</div>
+            <h1 class="title title__fz48 promo__title">I'm Front-End Developer from<br>Kharkiv</h1>
+            <div class="promo__btns "> <a href="#portfolio" class="promo__link btn">Portfolio</a> <a href="#about" class="promo__link ">About Me</a></div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__wrapper"><img class="about__photo" src="img/main_photo.jpg"
+                    alt="main photo for portfolio web site">
+                <div class="about__descr">
+                    <h2 class="title title__fz16 about__title">About Myself</h2>
+                    <div class="title title__fz36 about__subtitle">My name is Oleksii</div>
+                    <div class="divider"></div>
+                    <p class="about__text">I'm an aspiring front-end developer looking for new opportunities. I have a
+                        bachelor's degree in computer scince and I went thorugh frontend training course where I've
+                        build numerouse SPAs and websites with ReactJs, (HTML, Css, Sass, Less, JavaScript, Redux,
+                        React, GraphQL, GIT). I'd love to get a hands-on experience with the real world problems and
+                        advance my developing skills while creating something that can bring value. Hope to became a
+                        valuable addition to your team 😉</p>
+                </div>
+                <div class="about__skills">
+                    <div class="about__skills-item">
+                        <div class="about__skills-circle"><img src="icons/about_me/web_development.svg"
+                                alt="web-development"></div>
+                        <div>
+                            <div class=".title title__fz14">Web development</div>
+                            <div class="about__skills-text">I have basic knowledge in web development! In the
+                                technologies listed below! But I have no commercial experience! But I want to get it!!!
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__skills-item">
+                        <div class="about__skills-circle"><img src="icons/about_me/mobile_dev.svg"
+                                alt="web application"></div>
+                        <div>
+                            <div class=".title title__fz14">Web applicationt</div>
+                            <div class="about__skills-text">At the basic level, I worked with such a library as React!
+                                At the moment, the pet project of the online store is under development!</div>
+                        </div>
+                    </div>
+                    <div class="about__skills-item">
+                        <div class="about__skills-circle"><img src="icons/about_me/school-bell.svg" alt="learn language"></div>
+                        <div>
+                            <div class=".title title__fz14">Learning languages</div>
+                            <div class="about__skills-text">At the moment, I am improving my knowledge of the English language! I'm taking classes at BigBang Online School! I plan to improve my knowledge to the intermediate level!</div>
+                        </div>
+                    </div>
+                    <div class="about__skills-item">
+                        <div class="about__skills-circle"><img src="icons/about_me/design.svg" alt="web designe"></div>
+                        <div>
+                            <div class=".title title__fz14">UI/UX Descigne</div>
+                            <div class="about__skills-text">I read several books on the basics of design on the
+                                Internet! One of them is Responsive Web Design with HTML5 and CSS: Develop future-proof
+                                responsive websites using the latest HTML5 and CSS techniques, 3rd Edition Author: Ben
+                                Frain</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2 class="title title__fz16 resume__title">Education and Experience</h2>
+            <div class="title title__fz36 resume__subtitle">How can I be useful</div>
+            <div class="divider"></div>
+            <div class="resume__wrapper">
+                <div class="resume__column">
+                    <h3 class="title title_fz20 resume__column-title">Education</h3>
+                    <ul class="resume__list">
+                        <li class="resume__list-item">
+                            <div class="resume__item">
+                                <div class="resume__item-head">
+                                    <div class="resume__item-icon"><img src="icons/experience/university.svg"
+                                            alt="university"></div>
+                                    <h4 class="title title__fz14">Kharkiv national automobile & highway university</h4>
+                                    <div class="resume__item-location">Bachelor of Computer Science | Kharkiv
+                                        (2017-2021)</div>
+                                </div>
+                                <details class="resume__item-body" >
+                                    <summary>I graduated specialty 122 Computer science is an interdisciplinary field of training intended for innovative activities in the development of theoretical foundations and instrumental software tools for the implementation of</summary>
+                                    development, intellectualization, integration, automation, and management of complex distributed systems, networks, organizations, technological, social, and business processes .</details>
+                            </div>
+                            <div class="resume__item">
+                                <div class="resume__item-head">
+                                    <div class="resume__item-icon"><img src="icons/experience/developer.svg"
+                                            alt="programming School"></div>
+                                    <h4 class="title title__fz14">A-level School</h4>
+                                    <div class="resume__item-location">Front-End Developer | Kharkiv (2022)</div>
+                                </div>
+                                <div class="resume__item-body">I did not pass completely, unfortunately, the war made its corrections!</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="resume__column">
+                    <h3 class="title title_fz20 resume__column-title">Work experience</h3>
+                    <ul class="resume__list">
+                        <li class="resume__list-item">
+                            <div class="resume__item">
+                                <div class="resume__item-head">
+                                    <div class="resume__item-icon"><img src="icons/experience/courses.svg"
+                                            alt="Udemy"></div>
+                                    <h4 class="title title__fz14">Udemy</h4>
+                                    <div class="resume__item-location">He took several courses in javascript and web
+                                        technologies (React JS)</div>
+                                </div>
+                                <div class="resume__item-body">At the moment, several courses have already been completed on Udemy. Certificates can be viewed via the LinkedIn social network link)</div>
+                            </div>
+                        </li>
+                        <li class="resume__list-item">
+                            <div class="resume__item">
+                                <div class="resume__item-head">
+                                    <div class="resume__item-icon"><img src="icons/experience/books.svg" alt="books"></div>
+                                    <h4 class="title title__fz14">Learning programming width books</h4>
+                                    <div class="resume__item-location">I reеd books about programming with JavaScript.</div>
+                                </div>
+                                <div class="resume__item-body">Example JavaScript: The Definitive Guide: Master the World's Most-Used Programming Language
+                                    I want to read it in the future: Series of the Books: You Don't Know JS & Grokking Algorithms)
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="technologies" class="technologies">
+        <div class="container">
+            <h2 class="title title__fz16 technologies__title">Skills</h2>
+            <div class="title title__fz36 technologies__subtitle">What I've been working with:</div>
+            <div class="divider"></div>
+            <div class="technologies__wrapper">
+                <div class="technologies__item">
+                    <div class="technologies__item-header"><img class="technologies__item-img"
+                            src="icons/skills/html5.svg" alt="technologies HTML">
+                        <div class="title title__fz14 technologies__item-title">HTML5</div>
+                    </div>
+                    <p class="technologies__item-descr">HTML5 is a markup language used for structuring and presenting
+                        content on the World Wide Web. It is the fifth and final major HTML version that is a World Wide
+                        Web Consortium recommendation. The current specification is known as the HTML Living Standard.
+                    </p>
+                </div>
+                <div class="technologies__item">
+                    <div class="technologies__item-header"><img class="technologies__item-img"
+                            src="icons/skills/css3.svg" alt="technologies Css">
+                        <div class="title title__fz14 technologies__item-title">Css3</div>
+                    </div>
+                    <div class="technologies__item-descr">CSS stands for Cascading Style Sheets. CSS is a standard style
+                        sheet language used for describing the presentation (i.e. the layout and formatting) of the web
+                        pages.</div>
+                </div>
+                <div class="technologies__item">
+                    <div class="technologies__item-header"><img class="technologies__item-img"
+                            src="icons/skills/sass.svg" alt="technologies Sass">
+                        <div class="title title__fz14 technologies__item-title">Sass</div>
+                    </div>
+                    <div class="technologies__item-descr">Sass is a preprocessor scripting language that is interpreted
+                        or compiled into Cascading Style Sheets. SassScript is the scripting language itself. Sass
+                        consists of two syntaxes. The original syntax, called "the indented syntax," uses a syntax
+                        similar to Haml.</div>
+                </div>
+                <div class="technologies__item">
+                    <div class="technologies__item-header"><img class="technologies__item-img" src="icons/skills/js.svg"
+                            alt="technologies javascript">
+                        <div class="title title__fz14 technologies__item-title">JavaScript</div>
+                    </div>
+                    <div class="technologies__item-descr">JavaScript, often abbreviated JS, is a programming language
+                        that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of
+                        websites use JavaScript on the client side for web page behavior, often incorporating
+                        third-party libraries.</div>
+                </div>
+                <div class="technologies__item">
+                    <div class="technologies__item-header"><img class="technologies__item-img"
+                            src="icons/skills/redux.svg" alt="technologies Redux">
+                        <div class="title title__fz14 technologies__item-title">Redux</div>
+                    </div>
+                    <div class="technologies__item-descr">Redux is an open-source JavaScript library for managing and
+                        centralizing application state. It is most commonly used with libraries such as React or Angular
+                        for building user interfaces. Similar to Facebook's Flux architecture, it was created by Dan
+                        Abramov and Andrew Clark</div>
+                </div>
+                <div class="technologies__item">
+                    <div class="technologies__item-header"><img class="technologies__item-img"
+                            src="icons/skills/react.svg" alt="technologies React">
+                        <div class="title title__fz14 technologies__item-title">React</div>
+                    </div>
+                    <div class="technologies__item-descr">React is a free and open-source front-end JavaScript library
+                        for building user interfaces based on UI components. It is maintained by Meta and a community of
+                        individual developers and companies.</div>
+                </div>
+                <div class="technologies__item">
+                    <div class="technologies__item-header"><img class="technologies__item-img"
+                            src="icons/skills/graphql.svg" alt="technologies GraphQL">
+                        <div class="title title__fz14 technologies__item-title">GraphQL</div>
+                    </div>
+                    <div class="technologies__item-descr">GraphQL is an open-source data query and manipulation language
+                        for APIs, and a runtime for fulfilling queries with existing data. GraphQL was developed
+                        internally by Facebook in 2012 before being publicly released in 2015</div>
+                </div>
+                <div class="technologies__item">
+                    <div class="technologies__item-header"><img class="technologies__item-img"
+                            src="icons/skills/git-icon.svg" alt="technologies GIT">
+                        <div class="title title__fz14 technologies__item-title">Git</div>
+                    </div>
+                    <div class="technologies__item-descr">Git is a software for tracking changes in any set of files,
+                        usually used for coordinating work among programmers collaboratively developing source code
+                        during software development. Its goals include speed, data integrity, and support for
+                        distributed, non-linear workflows.</div>
+                </div>
+            </div>
+            <div class="technologies__languages">
+                <h2 class="title title__fz16 technologies__languages-subtitle">Languages</h2>
+                <div class="technologies__languages-ratings">
+                    <div class="technologies__languages-item">
+                        <div class="title title__fz14 technologies__languages-title">Ukraine</div>
+                        <div class="technologies__languages-counter">Native</div>
+                        <div class="technologies__languages-line"></div>
+                    </div>
+                    <div class="technologies__languages-item">
+                        <div class="title title__fz14 technologies__languages-title">English</div>
+                        <div class="technologies__languages-counter">Pre - intermediate</div>
+                        <div class="technologies__languages-line"></div>
+                    </div>
+                    <div class="technologies__languages-item">
+                        <div class="title title__fz14 technologies__languages-title">russian</div>
+                        <div class="technologies__languages-counter">Native</div>
+                        <div class="technologies__languages-line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="title title__fz16 technologies__title">Portfolio</h2>
+            <div class="title title__fz36 technologies__subtitle">Example my works</div>
+            <div class="divider"></div>
+            <div class="portfolio__wrapper"><a href="Uber/src/" class="portfolio__item" target="_blank"><img
+                        class="portfolio__img" src="img/works/uber.jpg" alt="uber works"> </a><a
+                    href="http://carslider.baskovaleksey777.fe.a-level.com.ua/" class="portfolio__item"
+                    target="_blank"><img class="portfolio__img" src="img/works/car.png" alt="car slider works"> </a><a
+                    href="progectFood/src/" class="portfolio__item" target="_blank"><img class="portfolio__img"
+                        src="img/works/vegy.jpg" alt="food works"> </a><a href="pulse/src/" class="portfolio__item"
+                    target="_blank"><img class="portfolio__img" src="img/works/pulse.jpg" alt="pulse works"></a></div>
+        </div>
+    </section>
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <h2 class="title title__fz16 contacts__title">Contacts</h2>
+            <div class="title title__fz36 contacts__subtitle">Link in my Social media</div>
+            <div class="contacts__wrapper"><a href="https://github.com/Baskov-Aleksey-Viktorovich"
+                    class="contacts__link" target="_blank"><img class="contacts__img" src="icons/social/github.svg"
+                        alt="github image icon"></a><a href="https://t.me/baskovAleksey" class="contacts__link"
+                    target="_blank"><img class="contacts__img" src="icons/social/telegram.svg"
+                        alt="telegram image icon"></a><a href="https://www.linkedin.com/in/aleksey-baskov-5a62601bb/"
+                    class="contacts__link" target="_blank"><img class="contacts__img" src="icons/social/linkedin.svg"
+                        alt="linkedin image icon"></a><a
+                    href="https://www.instagram.com/very_joyfull_boy/?igshid=YmMyMTA2M2Y=" class="contacts__link"
+                    target="_blank"><img class="contacts__img" src="icons/social/instagram.svg" alt=""></a></div>
+        </div>
+    </section>
+    <img class="up" src="img/works/arrow-circle-up-solid.svg" alt="up images">
+    <script src="js/script.js"></script>
+</body>
+
+</html>

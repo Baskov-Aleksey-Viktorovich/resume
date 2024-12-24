@@ -1,0 +1,19 @@
+.up{
+    height: 50px;
+    width: 50px;
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    border: 2px solid $sub-color;
+    border-radius: 50%;
+    img{
+        width: 100%;
+    }
+    &_animated{
+        animation: upbeat 2s ease infinite;
+        &:hover{
+            animation-play-state: paused;
+        }
+    }
+}

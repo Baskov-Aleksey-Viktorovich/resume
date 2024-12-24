@@ -1,0 +1,31 @@
+@import "base/variables.scss";
+@import "base/breakpoints.scss";
+@import "base/animation";
+@import "blocks/promo.scss";
+@import "blocks/header.scss";
+@import "blocks/button.scss";
+@import "blocks/advantages";
+@import "blocks/title";
+@import "blocks/consultation.scss";
+@import "blocks/forms.scss";
+@import "blocks/carousel";
+@import "blocks/catalog";
+@import "blocks/feed.scss";
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/up";
+* {
+  font-family: $main-font, sans-serif;
+  font-display: swap;
+};
+h2{margin: 0;
+padding: 0;}
+li{
+  list-style: none;
+}
+
+.container {
+  position: relative;
+  max-width: 1130px;
+  margin: 0 auto;
+}

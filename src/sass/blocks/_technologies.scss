@@ -1,0 +1,93 @@
+.technologies{
+    padding-top: 120px;
+    &__title{
+        position: relative;
+        text-align: center;
+        @include before_circle;
+        &::before{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    &__subtitle{
+        text-align: center;
+        margin-top: 6px;
+    }
+    &__wrapper{
+        padding-top: 60px;
+        display: grid;
+        grid-template: repeat(2, minmax(270px, auto)) / repeat(4, 270px) ;
+        grid-auto-rows: minmax(270px, auto);
+        gap: 13px;
+    }
+    &__item{
+        border: 1px solid black;
+        position: relative;
+        padding: 30px 30px 30px 30px;
+        &-img{
+            display: flex;
+            align-items: center;
+            max-height: 65px;
+            transform: scale(1);
+            transition: .5s ease-in-out;
+            &:hover{
+                transform: scale(1.3);
+            }
+        }
+        &-title{
+            margin-top: 20px;
+            margin-bottom: 0;
+        }
+        &-descr{
+            margin-top: 15px;
+            margin-bottom: 0;
+            font-size: 13px;
+            line-height: 18px;
+        }
+    }
+    &__languages{   
+        padding-top: 45px;     
+        &-subtitle{
+            position: relative;
+            text-align: center;
+            @include before_circle;
+            &::before{
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+        &-title{
+            font-size: 18px;
+        }
+        &-ratings{
+            display: grid;
+            grid-template: repeat(1, minmax(50px, auto)) / repeat(3, 350px);
+            gap: 35px;
+        }
+   
+            &-item{
+                text-align: center;
+                padding: 8px 0px 0 30px;
+                border: 1px solid black;
+                
+            }
+            &-counter{
+                font-size: 14px;
+                position: relative;
+                text-align: center;
+                &::after{
+                    content: '';
+                    width: 10px;
+                    height: 10px;
+                    background-color: $main-color;
+                    position: absolute;
+                    border-radius: 100%;
+                    top: 20%;
+                    transform: translateX(20%);
+                }
+                
+            }
+    }
+}

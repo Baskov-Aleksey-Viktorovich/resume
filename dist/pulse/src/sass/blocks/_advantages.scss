@@ -1,0 +1,46 @@
+.advantages{
+    min-height: 473px;
+    background-color: #F6F6F6;;
+    &__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+    &__icons{
+        width: 280px;
+        flex:max(200px);
+        text-align: center;
+        &_animated{
+            animation: heartbeat 2s ease infinite;
+            &:hover{
+                animation-play-state: paused;
+            }
+            /* animation-name: heartbeat;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite; */
+        }
+    }
+    img{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+    &__header{
+        display: block;
+        margin: 0 auto;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 29px;
+    }
+    &__descr{
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    a{
+        color: #FF0000;
+    }
+}

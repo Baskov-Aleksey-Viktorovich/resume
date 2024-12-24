@@ -1,0 +1,23 @@
+.title{
+    padding-top: 65px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #0D0D0D;
+    text-transform: uppercase;
+    &_consultation{
+        color: $sub-color;
+        font-size: 36px;
+        text-align: left;
+        @include media('<=phone'){
+            font-size: 20px;
+            padding: 0;
+            text-align: center;
+        }
+    }
+    &_respose{
+        @include media ('<=phone'){
+            font-size: 18px;
+    }
+    }
+}
